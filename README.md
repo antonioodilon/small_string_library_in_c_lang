@@ -1,5 +1,18 @@
 # small_string_library_in_c_lang
+====== HOW TO RUN ======
+1) Install GCC on your machine: https://gcc.gnu.org/
+   1a) For the Windows OS: https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j
+   1b) For Linux OS (although many times Linux already comes with GCC installed by default): https://www.geeksforgeeks.org/how-to-install-gcc-compiler-on-linux/
+   1c) For Mac: https://osxdaily.com/2023/05/02/how-install-gcc-mac/
+2) Install Git: https://git-scm.com/
+3) On your computer, navigate to a folder of your choice where you will download this repository, and open the Terminal or CMD there.
+4) Enter the following command: git clone https://github.com/antonioodilon/small_string_library_in_c_lang.git
+5) Navigate to the folder created there. The name of the folder is "small_string_library_in_c_lang".
+6) There will already be an executable for Linux-based operating systems there, but in case you want to build it again (for example, if you are using Windows), then go to step 7. Otherwise, just execute the program by opening the terminal and entering the command ./main and you're good to go.
+7) Build the program by opening the terminal on the small_string_library_in_c_lang folder and entering the command gcc -o the_name_of_my_executable main.c
+8) Execute the program by double clicking on it or doing ./the_name_of_my_executable
 
+====== OVERVIEW ======
 This is a small group of functions that I wrote in C for the String data type (named StringOfChars in the program), define as a struct with 3 members:
 1) A pointer of type uint8_t (unsigned 8-bit integer);
 2) Length of type size_t (unsigned 64-bit integer);
