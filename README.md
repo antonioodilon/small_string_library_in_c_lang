@@ -6,7 +6,7 @@
    1c) For Mac: https://osxdaily.com/2023/05/02/how-install-gcc-mac/  
 2) Install Git: https://git-scm.com/  
 3) On your computer, navigate to a folder of your choice where you will download this repository, and open the Terminal or CMD there.  
-4) Enter the following command: git clone https://github.com/antonioodilon/small_string_library_in_c_lang.git  
+4) Enter the following command: "git clone https://github.com/antonioodilon/small_string_library_in_c_lang.git " (without the quotation marks).  
 5) Navigate to the folder created there. The name of the folder is "small_string_library_in_c_lang".  
 6) There will already be an executable for Linux-based operating systems there, but in case you want to build it again (for example, if you are using Windows), then go to step 7. Otherwise, just execute the program by opening the terminal and entering the command ./main and you're good to go.  
 7) Build the program by opening the terminal on the small_string_library_in_c_lang folder and entering the command gcc -o the_name_of_my_executable main.c  
