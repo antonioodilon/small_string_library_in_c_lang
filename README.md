@@ -16,7 +16,7 @@ Finally, the program grabs the address of the first character of the buffer insi
 
 ====== MOTIVATION FOR WRITING THE PROGRAM ======
 The nature of this small project may come across as strange for many programmers out there. After all, why write a series of functions that, at the end, do very basic string operations that are nowadays common to most of the high-level languages that are used in real-world projects? For example, in Java or C#, if we want to concatenate two strings, we may see something like:
-    String name = "Helena";
+	String name = "Helena";
     String last_name = " Smith";
     String full_name = name + last_name;
     System.out.println(full_name);
