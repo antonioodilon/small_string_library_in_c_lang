@@ -13,6 +13,7 @@
 8) Execute the program by double clicking on it or doing ./the_name_of_my_executable  
 
 ====== OVERVIEW ======  
+
 This is a small group of functions that I wrote in C for the String data type (named StringOfChars in the program), define as a struct with 3 members:
 1) A pointer of type uint8_t (unsigned 8-bit integer);
 2) Length of type size_t (unsigned 64-bit integer);
