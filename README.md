@@ -12,7 +12,7 @@
 7) Build the program by opening the terminal on the small_string_library_in_c_lang folder and entering the command gcc -o the_name_of_my_executable main.c  
 8) Execute the program by double clicking on it or doing ./the_name_of_my_executable  
 
-====== OVERVIEW ======
+====== OVERVIEW ======  
 This is a small group of functions that I wrote in C for the String data type (named StringOfChars in the program), define as a struct with 3 members:
 1) A pointer of type uint8_t (unsigned 8-bit integer);
 2) Length of type size_t (unsigned 64-bit integer);
